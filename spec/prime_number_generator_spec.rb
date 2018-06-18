@@ -27,6 +27,4 @@ describe PrimeNumberGenerator do
     results = PrimeNumberGenerator.generate(starting_value, ending_value)
     expect([starting_value, ending_value] - results).to eq []
   end
-
-
 end
